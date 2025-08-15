@@ -1,0 +1,44 @@
+:root {
+    --tile-size : 60px;
+    --light-tile : #ffffff;
+    --dark-tile : #8dadd5;
+    --bg-color : #202020;
+    --highlight : rgba(0,0,0,.1);
+    --check : #FEEC48;
+}
+
+@media all and (max-width: 1200px) {
+    :root {
+        --tile-size : 70px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    :root {
+        --tile-size : 70px;
+    }
+}
+
+@media all and (max-width: 834px) {
+    :root {
+        --tile-size : 80px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    :root {
+        --tile-size : 70px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    :root {
+        --tile-size : 50px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    :root {
+        --tile-size : 40px;
+    }
+}
