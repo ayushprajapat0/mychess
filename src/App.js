@@ -21,9 +21,11 @@ function App() {
         <AppContext.Provider value={providerState} >
             <div className="App">
                 <Board/>
+                <div className="takeback-container">
+                    <TakeBack/>
+                </div>
                 <Control>
                     <MovesList/>
-                    <TakeBack/>
                 </Control>
             </div>
         </AppContext.Provider>
